@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				serif: ['Crimson Text', 'Georgia', 'Times New Roman', 'serif'],
+				script: ['Dancing Script', 'cursive'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,6 +56,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'rose-gold': 'hsl(var(--rose-gold))',
+				'rose-gold-dark': 'hsl(var(--rose-gold-dark))',
+				'blush': 'hsl(var(--blush))',
+				'romantic-pink': 'hsl(var(--romantic-pink))',
+				'soft-cream': 'hsl(var(--soft-cream))',
+				'elegant-gold': 'hsl(var(--elegant-gold))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
