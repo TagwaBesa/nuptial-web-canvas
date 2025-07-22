@@ -6,17 +6,17 @@ export default function BridalParty() {
     {
       name: "Emma Johnson",
       role: "Maid of Honor",
-      description: "Sarah's sister and best friend since childhood. Emma has been there through every milestone and adventure."
+      description: "Ruth's sister and best friend since childhood. Emma has been there through every milestone and adventure."
     },
     {
       name: "Lisa Chen",
       role: "Bridesmaid",
-      description: "College roommate turned lifelong friend. Lisa and Sarah bonded over late-night study sessions and coffee runs."
+      description: "College roommate turned lifelong friend. Lisa and Ruth bonded over late-night study sessions and coffee runs."
     },
     {
       name: "Rachel Martinez",
       role: "Bridesmaid", 
-      description: "Work colleague who became family. Rachel and Sarah share a love for hiking and trying new restaurants."
+      description: "Work colleague who became family. Rachel and Ruth share a love for hiking and trying new restaurants."
     }
   ];
 
@@ -24,12 +24,12 @@ export default function BridalParty() {
     {
       name: "David Thompson",
       role: "Best Man",
-      description: "Michael's brother and partner in crime. David has been Michael's biggest supporter and closest confidant."
+      description: "Mwape's brother and partner in crime. David has been Mwape's biggest supporter and closest confidant."
     },
     {
       name: "James Wilson",
       role: "Groomsman",
-      description: "Childhood friend since kindergarten. James and Michael have shared countless adventures and inside jokes."
+      description: "Childhood friend since kindergarten. James and Mwape have shared countless adventures and inside jokes."
     },
     {
       name: "Alex Rodriguez",

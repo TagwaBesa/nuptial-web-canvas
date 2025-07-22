@@ -41,7 +41,7 @@ export default function Navigation() {
               isScrolled ? 'text-primary' : 'text-white'
             }`}
           >
-            S & M
+            M & R
           </button>
 
           {/* Desktop Navigation */}

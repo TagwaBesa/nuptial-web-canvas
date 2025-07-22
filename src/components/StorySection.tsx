@@ -24,8 +24,8 @@ export default function StorySection() {
                   <h3 className="font-script text-2xl text-primary">How We Met</h3>
                 </div>
                 <p className="font-serif text-muted-foreground leading-relaxed mb-4">
-                  It was a rainy Tuesday morning at Cafe Luna when Sarah accidentally spilled her coffee 
-                  on Michael's laptop. What started as an embarrassing moment turned into hours of 
+                  It was a rainy Tuesday morning at Cafe Luna when Ruth accidentally spilled her coffee 
+                  on Mwape's laptop. What started as an embarrassing moment turned into hours of 
                   conversation and laughter over shared stories and dreams.
                 </p>
                 <p className="font-serif text-muted-foreground leading-relaxed">
@@ -41,7 +41,7 @@ export default function StorySection() {
                   <h3 className="font-script text-2xl text-primary">The Proposal</h3>
                 </div>
                 <p className="font-serif text-muted-foreground leading-relaxed mb-4">
-                  Three years later, Michael took Sarah back to that same cafe. As they sat at their 
+                  Three years later, Mwape took Ruth back to that same cafe. As they sat at their 
                   favorite corner table, he got down on one knee and asked her to be his forever 
                   coffee companion.
                 </p>

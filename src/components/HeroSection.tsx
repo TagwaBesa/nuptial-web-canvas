@@ -23,7 +23,7 @@ export default function HeroSection() {
           {/* Couple Names */}
           <div>
             <h1 className="font-script text-6xl md:text-8xl mb-4 text-elegant-gold">
-              Sarah & Michael
+              Mwape & Ruth
             </h1>
             <p className="text-xl md:text-2xl font-serif italic opacity-90">
               are getting married
