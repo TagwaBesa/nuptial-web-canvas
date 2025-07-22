@@ -21,7 +21,9 @@ export default function Navigation() {
 
   const navItems = [
     { label: "Home", id: "home" },
+    { label: "Our Story", id: "story" },
     { label: "Details", id: "details" },
+    { label: "Bridal Party", id: "bridal-party" },
     { label: "RSVP", id: "rsvp" },
     { label: "Contact", id: "contact" }
   ];
