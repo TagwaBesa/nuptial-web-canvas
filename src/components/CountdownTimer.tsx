@@ -17,7 +17,7 @@ export default function CountdownTimer() {
   });
 
   useEffect(() => {
-    const weddingDate = new Date('2024-09-13T16:00:00').getTime();
+    const weddingDate = new Date('2025-09-13T16:00:00').getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -53,7 +53,7 @@ export default function CountdownTimer() {
             Counting Down to Forever
           </h2>
           <p className="text-lg text-white/90 font-serif">
-            September 13th, 2024 • 4:00 PM
+            September 13th, 2025 • 4:00 PM
           </p>
         </div>
 

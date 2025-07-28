@@ -4,37 +4,52 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function BridalParty() {
   const bridesmaids = [
     {
-      name: "Emma Johnson",
+      name: "Munyama",
       role: "Maid of Honor",
-      description: "Ruth's sister and best friend since childhood. Emma has been there through every milestone and adventure."
+      description: "The bride’s right hand and closest confidante, Munyama brings grace, laughter, and unwavering support."
     },
     {
-      name: "Lisa Chen",
+      name: "Vanessa",
       role: "Bridesmaid",
-      description: "College roommate turned lifelong friend. Lisa and Ruth bonded over late-night study sessions and coffee runs."
+      description: "A lifelong friend with a heart of gold, Vanessa lights up every room with her warmth and spirit."
     },
     {
-      name: "Rachel Martinez",
-      role: "Bridesmaid", 
-      description: "Work colleague who became family. Rachel and Ruth share a love for hiking and trying new restaurants."
+      name: "Kondwani",
+      role: "Bridesmaid",
+      description: "Always ready with a joke or a hug, Kondwani has been a steady and joyful presence in the bride's life."
+    },
+    {
+      name: "Kunda",
+      role: "Bridesmaid",
+      description: "The calm in the storm — Kunda’s kindness and creativity have shaped countless memories over the years."
     }
   ];
 
   const groomsmen = [
     {
-      name: "David Thompson",
+      name: "Kenny",
       role: "Best Man",
-      description: "Mwape's brother and partner in crime. David has been Mwape's biggest supporter and closest confidant."
+      description: "A brother in every way that matters — Kenny has been the groom’s go-to for advice, laughs, and loyalty."
     },
     {
-      name: "James Wilson",
+      name: "Aston",
       role: "Groomsman",
-      description: "Childhood friend since kindergarten. James and Mwape have shared countless adventures and inside jokes."
+      description: "With a spirit of adventure and a deep bond, Aston has been by the groom’s side through thick and thin."
     },
     {
-      name: "Alex Rodriguez",
+      name: "Trevor",
       role: "Groomsman",
-      description: "College buddy and basketball teammate. Alex brings laughter and energy to every gathering."
+      description: "Known for his wit and big heart, Trevor brings a perfect mix of fun and reliability to the group."
+    },
+    {
+      name: "Dalitso",
+      role: "Groomsman",
+      description: "A quiet force of strength and wisdom, Dalitso has been a trusted friend through every chapter."
+    },
+    {
+      name: "Besa",
+      role: "Groomsman",
+      description: "Family by name, brother by choice — Besa's humor and loyalty make him unforgettable."
     }
   ];
 
@@ -57,7 +72,6 @@ export default function BridalParty() {
               <h3 className="font-script text-3xl text-primary mb-2">Bridesmaids</h3>
               <div className="w-16 h-0.5 bg-rose-gold mx-auto"></div>
             </div>
-            
             <div className="space-y-6">
               {bridesmaids.map((person, index) => (
                 <Card key={index} className="soft-shadow border-2 border-rose-gold/20 bg-card/95">
@@ -90,7 +104,6 @@ export default function BridalParty() {
               <h3 className="font-script text-3xl text-primary mb-2">Groomsmen</h3>
               <div className="w-16 h-0.5 bg-rose-gold mx-auto"></div>
             </div>
-            
             <div className="space-y-6">
               {groomsmen.map((person, index) => (
                 <Card key={index} className="soft-shadow border-2 border-rose-gold/20 bg-card/95">
