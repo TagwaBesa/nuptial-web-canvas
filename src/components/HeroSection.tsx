@@ -1,6 +1,6 @@
 import { Calendar, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/wedding-hero.jpg";
+import heroImage from "@/assets/mwape 3.jpeg";
 
 export default function HeroSection() {
   const scrollToRSVP = () => {
