@@ -26,7 +26,7 @@ export default function HeroSection() {
               Mwape & Ruth
             </h1>
             <p className="text-xl md:text-2xl font-serif italic opacity-90">
-              are getting married
+              A journey to forever ♾️
             </p>
           </div>
 
@@ -34,7 +34,7 @@ export default function HeroSection() {
           <div className="space-y-4 bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-white/20">
             <div className="flex items-center justify-center gap-3 text-lg md:text-xl">
               <Calendar className="w-6 h-6 text-elegant-gold" />
-              <span className="font-serif">Friday, September 13th, 2024</span>
+              <span className="font-serif">Friday, September 13th, 2025</span>
             </div>
             <div className="flex items-center justify-center gap-3 text-lg md:text-xl">
               <MapPin className="w-6 h-6 text-elegant-gold" />

@@ -20,7 +20,7 @@ export default function EventDetails() {
           <Card className="soft-shadow border-2 border-rose-gold/20 bg-card/95 backdrop-blur-sm">
             <CardContent className="p-8">
               <div className="text-center mb-6">
-                <h3 className="font-script text-3xl text-primary mb-2">Ceremony</h3>
+                <h3 className="font-script text-3xl text-primary mb-2">Marriage Blessing</h3>
                 <div className="w-16 h-0.5 bg-rose-gold mx-auto"></div>
               </div>
               
@@ -32,17 +32,16 @@ export default function EventDetails() {
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-primary mt-1" />
                   <div>
-                    <p className="font-serif font-semibold">Rosewood Manor Gardens</p>
+                    <p className="font-serif font-semibold">Roma Parish Of The Assumption</p>
                     <p className="text-muted-foreground text-sm">
-                      123 Garden Lane<br />
-                      Riverside, CA 92501
+                      Kasangula Road
                     </p>
                   </div>
                 </div>
                 <Button 
                   variant="outline" 
                   className="w-full mt-4 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  onClick={() => window.open('https://maps.google.com/?q=Rosewood+Manor+Gardens+Riverside+CA', '_blank')}
+                  onClick={() => window.open('https://maps.app.goo.gl/Vc4B5BjnKsw3BHU27', '_blank')}
                 >
                   <Navigation className="w-4 h-4 mr-2" />
                   Get Directions

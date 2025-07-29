@@ -28,7 +28,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-serif font-semibold">Call or Text</p>
-                    <p className="text-muted-foreground">(555) 123-4567</p>
+                    <p className="text-muted-foreground">+26097 12345678</p>
                   </div>
                 </div>
 
@@ -38,7 +38,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-serif font-semibold">Email Us</p>
-                    <p className="text-muted-foreground">sarah.michael.wedding@gmail.com</p>
+                    <p className="text-muted-foreground">mwape.wedding@gmail.com</p>
                   </div>
                 </div>
 
@@ -46,7 +46,7 @@ export default function ContactSection() {
                   <Button
                     variant="outline"
                     className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                    onClick={() => window.open('tel:+15551234567', '_self')}
+                    onClick={() => window.open('tel:+260974109091', '_self')}
                   >
                     <Phone className="w-4 h-4 mr-2" />
                     Call Us
@@ -78,8 +78,8 @@ export default function ContactSection() {
                       <MessageCircle className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <p className="font-serif font-semibold">Emma Johnson</p>
-                      <p className="text-muted-foreground">(555) 987-6543</p>
+                      <p className="font-serif font-semibold">Kondwani</p>
+                      <p className="text-muted-foreground">+26097 12345678</p>
                     </div>
                   </div>
                 </div>
@@ -91,8 +91,8 @@ export default function ContactSection() {
                       <MessageCircle className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <p className="font-serif font-semibold">James Miller</p>
-                      <p className="text-muted-foreground">(555) 456-7890</p>
+                      <p className="font-serif font-semibold">Trevor</p>
+                      <p className="text-muted-foreground">+2609712345678</p>
                     </div>
                   </div>
                 </div>
@@ -111,9 +111,9 @@ export default function ContactSection() {
         {/* Additional Info */}
         <Card className="mt-8 soft-shadow border-2 border-rose-gold/20 bg-card/95 backdrop-blur-sm">
           <CardContent className="p-8 text-center">
-            <h3 className="font-script text-2xl text-primary mb-4">Wedding Coordinator</h3>
-            <p className="font-serif mb-2">Perfect Day Events - Jennifer Williams</p>
-            <p className="text-muted-foreground mb-4">(555) 111-2222 | jennifer@perfectdayevents.com</p>
+            <h3 className="font-script text-2xl text-primary mb-4">Wedding Planner</h3>
+            <p className="font-serif mb-2">Perfect Day Events - Offiah</p>
+            <p className="text-muted-foreground mb-4">+26077 7766265| offiah@perfectdayevents.com</p>
             <p className="text-sm text-muted-foreground">
               For any day-of wedding questions or emergencies, please contact our wedding coordinator directly.
             </p>
