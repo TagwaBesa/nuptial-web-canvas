@@ -25,7 +25,14 @@ export default function Footer() {
 
         <div className="mt-8 pt-6 border-t border-primary-foreground/20">
           <p className="text-xs opacity-60">
-            © 2024 Mwape & Ruth Wedding. Made with ❤️
+            © 2025 Mwape & Ruth Wedding. Made with ❤️by  <a
+    href="https://digitaldebugits.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    
+  >
+    Digital Debug
+  </a>
           </p>
         </div>
       </div>
