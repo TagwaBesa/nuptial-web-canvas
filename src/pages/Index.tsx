@@ -4,7 +4,7 @@ import StorySection from "@/components/StorySection";
 import CountdownTimer from "@/components/CountdownTimer";
 import EventDetails from "@/components/EventDetails";
 import BridalParty from "@/components/BridalParty";
-import RSVPForm from "@/components/RSVPForm";
+// import RSVPForm from "@/components/RSVPForm";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -20,7 +20,7 @@ const Index = () => {
         <CountdownTimer />
         <EventDetails />
         <BridalParty />
-        <RSVPForm />
+        {/* <RSVPForm /> */}
         <ContactSection />
       </main>
       <Footer />

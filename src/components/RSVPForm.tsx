@@ -32,8 +32,6 @@ export default function RSVPForm() {
       });
       return;
     }
-
-    // In a real application, you would send this data to your backend
     console.log("RSVP Submission:", formData);
     
     toast({

@@ -27,14 +27,15 @@ export default function EventDetails() {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Clock className="w-5 h-5 text-primary" />
-                  <span className="font-serif">4:00 PM</span>
+                  <span className="font-serif">9:00 AM</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-primary mt-1" />
                   <div>
                     <p className="font-serif font-semibold">Roma Parish Of The Assumption</p>
                     <p className="text-muted-foreground text-sm">
-                      Kasangula Road
+                      Kasangula Road <br />
+                      Lusaka
                     </p>
                   </div>
                 </div>
@@ -68,8 +69,8 @@ export default function EventDetails() {
                   <div>
                     <p className="font-serif font-semibold">The Grand Ballroom</p>
                     <p className="text-muted-foreground text-sm">
-                      456 Celebration Blvd<br />
-                      Riverside, CA 92501
+                      456 Celebration<br />
+                      Lusaka
                     </p>
                   </div>
                 </div>
