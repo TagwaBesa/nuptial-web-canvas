@@ -4,47 +4,53 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function BridalParty() {
   const bridesmaids = [
     {
-      name: "Munyama",
-      role: "Maid of Honor",
-      description: "The bride’s right hand and closest confidante, Munyama brings grace, laughter, and unwavering support."
-    },
-    {
-      name: "Vanessa",
-      role: "Bridesmaid",
-      description: "A lifelong friend with a heart of gold, Vanessa lights up every room with her warmth and spirit."
-    },
-    {
       name: "Kondwani",
+      role: "Maid of Honor",
+      description: "Friend turned sister- Koko's warmth and happiness always prompt a smile and a feeling of home."
+    },
+    {
+      name: "Munyama",
       role: "Bridesmaid",
-      description: "Always ready with a joke or a hug, Kondwani has been a steady and joyful presence in the bride's life."
+      description: "Cousin to the bride…a.k.a. the one she calls when she needs a last-minute partner in crime and zero questions asked."
+    },
+    {
+      name: "Maria",
+      role: "Bridesmaid",
+      description: "Bridesmaid for a day, Ruth’s roomy for life " 
     },
     {
       name: "Kunda",
       role: "Bridesmaid",
-      description: "The calm in the storm — Kunda’s kindness and creativity have shaped countless memories over the years."
+      description: "Ru’s uni sister now bridesmaid. Soft spoken but don’t let that fool you… I bring the vibes when it counts"
+    },
+     {
+      name: "Vanessa",
+      role: "Bridesmaid",
+      description: "A blessed friend with heart made to love. Supported this union from day one and happy to see the love birds become one. She is a bougie, beautiful hopeless romantic "
+
     }
   ];
 
   const groomsmen = [
     {
-      name: "Kenny",
-      role: "Best Man",
-      description: "A brother in every way that matters — Kenny has been the groom’s go-to for advice, laughs, and loyalty."
-    },
-    {
-      name: "Aston",
-      role: "Groomsman",
-      description: "With a spirit of adventure and a deep bond, Aston has been by the groom’s side through thick and thin."
-    },
-    {
       name: "Trevor",
-      role: "Groomsman",
-      description: "Known for his wit and big heart, Trevor brings a perfect mix of fun and reliability to the group."
+      role: "Best Man",
+      description: "Friend by choice, Brother by evolution. Willingness to wake up at 02 and drive 150kms to pick up a phone box"
     },
     {
       name: "Dalitso",
       role: "Groomsman",
-      description: "A quiet force of strength and wisdom, Dalitso has been a trusted friend through every chapter."
+      description: "From mild acquaintances to insperable mischief makers to mature brothers united by a strong work eithic and drive for shared success."
+    },
+    {
+      name: "Kenny",
+      role: "Groomsman",
+      description: "I joined the class on a Thursday feeling left out, until Mwape walked up and said, ‘Hi, I’m Mwape. What’s your name?’ From that moment, I knew I’d gained a brother."
+    },
+    {
+      name: "Aston",
+      role: "Groomsman",
+      description: "God gave me an extra brother"
     },
     {
       name: "Besa",

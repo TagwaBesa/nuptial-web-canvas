@@ -24,12 +24,15 @@ export default function StorySection() {
                   <h3 className="font-script text-2xl text-primary">How We Met</h3>
                 </div>
                 <p className="font-serif text-muted-foreground leading-relaxed mb-4">
-                  It was a rainy Tuesday morning at Cafe Luna when Ruth accidentally spilled her coffee 
-                  on Mwape's laptop. What started as an embarrassing moment turned into hours of 
-                  conversation and laughter over shared stories and dreams.
+                 Mwape’s Account: The year was 2014 and BC screening was finally here, Trevor
+                  (My Best man) and I go to the Sport Hall for screening. There we meet a gang of people he went to high school
+                   with AKA The Cool Kids From Mpelembe. He introduces me to everyone and there she was, Ruth Kaacha
+                  ( Alexa play Can’t help falling in Love by Elvis Presley), who I could tell had no idea she was going to be my wife.
                 </p>
                 <p className="font-serif text-muted-foreground leading-relaxed">
-                  That coffee spill was the best accident that ever happened to us.
+                 Ruth’s Account:
+Let’s just say I neither confirm nor deny his account. However, something I do say for certain is that I am now a believer in coincidences ,
+ random romantic gestures and meet cutes( the ladies will get this lol).
                 </p>
               </CardContent>
             </Card>
@@ -41,12 +44,19 @@ export default function StorySection() {
                   <h3 className="font-script text-2xl text-primary">The Proposal</h3>
                 </div>
                 <p className="font-serif text-muted-foreground leading-relaxed mb-4">
-                  Three years later, Mwape took Ruth back to that same cafe. As they sat at their 
-                  favorite corner table, he got down on one knee and asked her to be his forever 
-                  coffee companion.
+                  The year was 2024, we’re now by some weird coincidence both working Kalumbila. According to some,
+                   I followed her there… I neither deny nor accept the allegation.
+Anyway, we go on a trip to down south for a weekend, and that Sunday afternoon we went on a boat cruise. 
+Whilst on the cruise we experienced some engine trouble and had to park on a random Island between Zambia and
+ Zimbabwe along the mighty Zambezi River. To pass time as the boat got worked on we decided to take a walk on the island. 
+ As we took our walk we stumbled upon some words in the sand that read “Will You Marry Me”,
+  at this very moment two random things happened spontaneously, out of nowhere music started playing 
+  and I suddenly tripped and landed on one knee. Conveniently, I happened to have a box with a ring in my pocket… 
+  and I felt so inspired I started 
+to give a speech as I removed this ring out of the box and the rest of it as they say is history.
                 </p>
                 <p className="font-serif text-muted-foreground leading-relaxed">
-                  Of course, she said yes! (And promised to be more careful with her coffee.)
+                 
                 </p>
               </CardContent>
             </Card>
