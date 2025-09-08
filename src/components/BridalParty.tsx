@@ -23,11 +23,10 @@ export default function BridalParty() {
       role: "Bridesmaid",
       description: "Ru’s uni sister now bridesmaid. Soft spoken but don’t let that fool you… I bring the vibes when it counts"
     },
-     {
+    {
       name: "Vanessa",
       role: "Bridesmaid",
       description: "A blessed friend with heart made to love. Supported this union from day one and happy to see the love birds become one. She is a bougie, beautiful hopeless romantic "
-
     }
   ];
 
@@ -59,6 +58,12 @@ export default function BridalParty() {
     }
   ];
 
+  const matron = {
+    name: "Mrs. Margaret Kaacha-Sipatela",
+    role: "Matron ",
+    description: "A big sister & also a friend… depending on which hat I need to wear😊I am so excited for this next chapter and I pray a hedge of protection around you and all that concerns you. I love you"
+  };
+
   return (
     <section id="bridal-party" className="py-20 subtle-gradient">
       <div className="container mx-auto px-4 max-w-6xl">
@@ -71,6 +76,7 @@ export default function BridalParty() {
           </p>
         </div>
 
+        {/* Bridesmaids & Groomsmen */}
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Bridesmaids */}
           <div>
@@ -135,6 +141,34 @@ export default function BridalParty() {
               ))}
             </div>
           </div>
+        </div>
+
+        {/* Matron */}
+        <div className="mt-16">
+          <div className="text-center mb-8">
+            <h3 className="font-script text-3xl text-primary mb-2">Matron</h3>
+            <div className="w-16 h-0.5 bg-rose-gold mx-auto"></div>
+          </div>
+          <Card className="soft-shadow border-2 border-rose-gold/20 bg-card/95 max-w-md mx-auto">
+            <CardContent className="p-6">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <Users className="w-6 h-6 text-primary" />
+                </div>
+                <div>
+                  <h4 className="font-serif text-lg font-semibold text-foreground mb-1">
+                    {matron.name}
+                  </h4>
+                  <p className="text-sm text-primary font-serif italic mb-2">
+                    {matron.role}
+                  </p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {matron.description}
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>

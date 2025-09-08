@@ -112,8 +112,8 @@ export default function ContactSection() {
         <Card className="mt-8 soft-shadow border-2 border-rose-gold/20 bg-card/95 backdrop-blur-sm">
           <CardContent className="p-8 text-center">
             <h3 className="font-script text-2xl text-primary mb-4">Wedding Planner</h3>
-            <p className="font-serif mb-2">Perfect Day Events - Offiah</p>
-            <p className="text-muted-foreground mb-4">+26077 7766265| offiah@perfectdayevents.com</p>
+            <p className="font-serif mb-2">Big Energy Events - Francescella</p>
+            <p className="text-muted-foreground mb-4">+260979857895</p>
             <p className="text-sm text-muted-foreground">
               For any day-of wedding questions or emergencies, please contact our wedding coordinator directly.
             </p>

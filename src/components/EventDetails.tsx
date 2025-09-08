@@ -62,22 +62,22 @@ export default function EventDetails() {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Clock className="w-5 h-5 text-primary" />
-                  <span className="font-serif">6:00 PM - 11:00 PM</span>
+                  <span className="font-serif">4pm to 7:30pm</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-primary mt-1" />
                   <div>
-                    <p className="font-serif font-semibold">The Grand Ballroom</p>
+                    <p className="font-serif font-semibold">Waterfalls Place</p>
                     <p className="text-muted-foreground text-sm">
-                      456 Celebration<br />
-                      Lusaka
+                      13935 Off Great East Road,<br />
+                      Silverest, Lusaka
                     </p>
                   </div>
                 </div>
                 <Button 
                   variant="outline" 
                   className="w-full mt-4 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  onClick={() => window.open('https://maps.google.com/?q=The+Grand+Ballroom+Riverside+CA', '_blank')}
+                  onClick={() => window.open('https://maps.app.goo.gl/huJJGEe6hDFyFAiz9', '_blank')}
                 >
                   <Navigation className="w-4 h-4 mr-2" />
                   Get Directions
