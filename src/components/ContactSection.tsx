@@ -32,16 +32,6 @@ export default function ContactSection() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-4">
-                  <div className="bg-primary/10 p-3 rounded-full">
-                    <Mail className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-serif font-semibold">Email Us</p>
-                    <p className="text-muted-foreground">mwape.wedding@gmail.com</p>
-                  </div>
-                </div>
-
                 <div className="pt-4 space-y-3">
                   <Button
                     variant="outline"
@@ -52,14 +42,14 @@ export default function ContactSection() {
                     Call Us
                   </Button>
                   
-                  <Button
+                  {/* <Button
                     variant="outline"
                     className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                     onClick={() => window.open('mailto:sarah.michael.wedding@gmail.com', '_self')}
                   >
                     <Mail className="w-4 h-4 mr-2" />
                     Send Email
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </CardContent>
@@ -99,8 +89,7 @@ export default function ContactSection() {
 
                 <div className="pt-4">
                   <p className="text-sm text-muted-foreground text-center">
-                    Feel free to reach out to our wedding party for any questions about accommodations, 
-                    local recommendations, or other wedding weekend activities!
+                    Feel free to reach out to our wedding party for any questions about wedding weekend activities!
                   </p>
                 </div>
               </div>
